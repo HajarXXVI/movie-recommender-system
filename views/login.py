@@ -25,7 +25,7 @@ def authenticate_user(username, password):
     return result is not None
 
 def main():
-    st.title("Log In")
+    st.subheader(':blue[Log In]')
 
     username = st.text_input("Username")
     password = st.text_input("Password", type="password")
